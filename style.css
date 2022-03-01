@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background: #E5E5E5;
+}
+.header{
+
+  width: 100%;
+  height: 60px;
+  background: #1F2229;
+  color: white;
+  text-align: justify;
+  padding-top: 0.5%;
+  padding-left: 10%;
+  font-size: 17px;
+}
+.header h1{
+  margin:1.5%;
+  display: inline;
+}
+.center{
+  position: relative;
+  background: #FAF6F6;
+  width: 80%;
+  height: 800px;
+  left: 10%;
+  text-align: justify;
+}
+.center h1{
+  padding-top: 4%;
+  text-align: center;
+  font-size: 39px;
+  color: #1F2229;
+}
+.center-description{
+    padding-top: 2.5%;
+    font-size: 17px;
+    text-align: center;
+}
+form{
+  position: relative;
+  width: 650px;
+  height: 200px;
+  margin: 2%;
+  top: 1%;
+  left: 26%;
+}
+@media screen and (max-width: 1400px) {
+  form{
+    top: 1%;
+    left: 20%;
+  }
+}
+@media screen and (max-width: 1800px) {
+  form{
+    top: 1%;
+    left: 25%;
+  }
+}
+@media screen and (max-width: 1650px) {
+  form{
+    top: 1%;
+    left: 22%;
+  }
+}
+@media screen and (max-width: 1540px) {
+  form{
+    top: 1%;
+    left: 20%;
+  }
+}
+@media screen and (max-width: 1390px) {
+  form{
+    top: 1%;
+    left: 17%;
+  }
+}
+@media screen and (max-width: 1260px) {
+  form{
+    top: 1%;
+    left: 15%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  form{
+    top: 1%;
+    left: 8%;
+  }
+}
+form input{
+  width: 245px;
+  height: 55px;
+  margin: 3%;
+  border: 1px solid black;
+  padding-left: 3%;
+}
+form input:focus{
+  border: 1px solid #33C4A0;
+}
+input[type="checkbox"]{
+  width: 25px;
+  margin-top: 25px;
+}
+.checkbox-text{
+  font-size: 1em;
+  position: relative;
+  top: -20px;
+}
+input[name="sumAdd"] {
+ position: absolute;
+ color: black;
+ height: 40px;
+ margin-left: 56%;;
+ margin-top: -70px;
+ padding-top: 15px;
+ display: none;
+}
+.sumAdd-text{
+  font-size: 14px;
+  position: absolute;
+  margin-left: 57%;;
+  margin-top: -65px;
+  z-index: 1;
+  display: none;
+}
+.sumAdd-error{
+  font-size: 12px;
+  position: absolute;
+  margin-left: 9%;;
+  margin-top: 95px;
+  z-index: 1;
+  color: red;
+}
+input[name="sum"] {
+ position: relative;
+ color: black;
+ height: 40px;
+ margin-left: 20px;
+ padding-top: 15px;
+}
+.sum-text{
+  font-size: 14px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 120px;
+  z-index: 1;
+}
+.sum-error{
+  font-size: 12px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 175px;
+  z-index: 1;
+  color: red;
+}
+input[type="button"] {
+  position: absolute;
+  width: 172px;
+  height: 52px;
+  background: #33C4A0;
+  border: 1px solid #33C4A0;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  padding-right: 3%;
+  cursor: pointer;
+  margin-left: -42%;
+  margin-top: 24%;
+}
+input[type="button"]:hover {
+  background: #479164;
+}
+input[name="percent"] {
+  height: 40px;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+input[name="startDate"] {
+  height: 40px;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+input[name="term"] {
+  position: relative;
+  color: black;
+  height: 40px;
+  padding-top: 15px;
+}
+.term-text{
+  font-size: 14px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 25px;
+  z-index: 1;
+}
+.term-error{
+  font-size: 12px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 80px;
+  z-index: 1;
+  color: red;
+}
+.term-select{
+  position: absolute;
+  z-index: 1;
+  height: 54px;
+  margin-left: 220px;
+  margin-top: 21px;
+  border: none;
+  border-left: 1px solid black;
+  font-size: 13px;
+}
+.startDate-text{
+  font-size: 14px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.startDate-error{
+  font-size: 12px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 80px;
+  color: red;
+}
+.percent-text{
+  font-size: 14px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 26px;
+}
+.percent-error{
+  font-size: 12px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 80px;
+  color: red;
+}
+input::placeholder {
+  color: black;
+}
+hr{
+  margin-top: 20%;
+}
+.block-sumFinal{
+  position: relative;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+.block-sumFinal span{
+  font-size: 16px;
+}
+.block-sumFinal p{
+  margin-top: 20px;
+  font-size: 40px;
+  margin-left: 5%;
+}
+.p-sumFinal span{
+  font-size: 40px;
+  font-weight: bold;
+}
+.block-sumFinal{
+  display: none;
+}
